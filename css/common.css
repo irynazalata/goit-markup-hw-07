@@ -221,6 +221,7 @@ address {
   top: 50%;
   left: 12px;
   transform: translateY(-50%);
+  pointer-events: none;
 }
 
 .modal-form-input:focus {
