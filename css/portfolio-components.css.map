@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,QAAQ,CAAC;EACP,WAAW,EAAE,IAAI;EACjB,cAAc,EAAE,IAAI;CACrB;;AAED,AAAA,MAAM,CAAC;EACL,aAAa,EAAE,iBAAiB;CACjC",
-    "sources": [
-        "../sass/components/portfolio-components.scss"
-    ],
-    "names": [],
-    "file": "portfolio-components.css"
-}
