@@ -12,8 +12,9 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/common.css" />
-    <link rel="stylesheet" href="./css/portfolio.css" />
+    <link rel="stylesheet" href="./dist/css/portfolio.min.css" />
+    <!-- <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/portfolio.css" /> -->
   </head>
 
   <body class="page">
@@ -261,6 +262,20 @@
               </a>
             </li>
           </ul>
+        </section>
+        <section class="subscribe-section">
+          <!-- Прихований заголовок -->
+          <h2 class="visually-hidden">Подписка</h2>
+          <b class="subscribe-text">Подпишитесь на рассылку</b>
+          <form action="" class="subscribe-form">
+            <input type="email" name="user-email" placeholder="E-mail" class="subscribe-form-input" />
+            <button type="submit" class="subscribe-button">
+              Подписаться
+              <svg class="subscribe-button-icon" width="24" height="24">
+                <use href="./images/sprite.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
         </section>
       </div>
     </footer>

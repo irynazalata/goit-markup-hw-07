@@ -22,13 +22,9 @@
 body {
   font-family: Roboto, sans-serif;
   font-weight: 400;
-  color: var(--primary-text-color);
+  color: $primary-text-color;
   letter-spacing: 0.03em;
-  background-color: var(--primary-wh-color);
-}
-
-.list {
-  list-style: none;
+  background-color: $primary-wh-color;
 }
 
 a {
@@ -69,6 +65,9 @@ address {
   overflow: hidden;
 }
 
+.list {
+  list-style: none;
+}
 .social-list {
   display: flex;
   justify-content: center;
@@ -97,11 +96,11 @@ address {
 }
 
 .social-list-item-link:hover {
-  background-color: var(--accent-color);
+  background-color: $accent-color;
 }
 
 .social-list-item-link:hover .social-list-item-svg {
-  fill: var(--primary-wh-color);
+  fill: $primary-wh-color;
 }
 
 /* POP-UPS */
@@ -142,7 +141,7 @@ address {
   min-height: 581px;
   margin: auto;
 
-  background-color: var(--primary-wh-color);
+  background-color: $primary-wh-color;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 
@@ -165,7 +164,7 @@ address {
   align-items: center;
   justify-content: center;
 
-  background: var(--primary-wh-color);
+  background: $primary-wh-color;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
 
@@ -174,7 +173,7 @@ address {
 
 .close-btn:hover,
 .close-btn:focus {
-  fill: var(--accent-color);
+  fill: $accent-color;
 }
 
 .modal-form {
@@ -189,7 +188,7 @@ address {
   text-align: center;
   margin-bottom: 12px;
 
-  color: var(--title-text-color);
+  color: $title-text-color;
 }
 
 .modal-form-input:focus,
@@ -222,7 +221,7 @@ address {
 
   letter-spacing: 0.01em;
 
-  color: var(--primary-text-color);
+  color: $primary-text-color;
 }
 
 .modal-form-input-svg {
@@ -234,11 +233,11 @@ address {
 }
 
 .modal-form-input:focus {
-  border-color: var(--accent-color);
+  border-color: $accent-color;
 }
 
 .modal-form-input:focus ~ .modal-form-input-svg {
-  fill: var(--accent-color);
+  fill: $accent-color;
 }
 
 .modal-form-message {
@@ -253,7 +252,7 @@ address {
 }
 
 .modal-form-message:focus {
-  border-color: var(--accent-color);
+  border-color: $accent-color;
 }
 
 .modal-form-message::placeholder {
@@ -270,13 +269,13 @@ address {
   line-height: 1.71;
   margin-bottom: 30px;
 
-  color: var(--primary-text-color);
+  color: $primary-text-color;
 }
 
 .modal-form-check-label a {
   display: inline;
   text-decoration: underline;
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 .modal-form-check-label::before {
@@ -310,8 +309,8 @@ address {
   line-height: 1.88;
   letter-spacing: 0.06em;
 
-  color: var(--primary-wh-color);
-  background-color: var(--accent-color);
+  color: $primary-wh-color;
+  background-color: $accent-color;
 
   border-radius: 4px;
   border-width: 0;
@@ -320,7 +319,7 @@ address {
 /* HEADER  */
 
 header {
-  background-color: var(--primary-wh-color);
+  background-color: $primary-wh-color;
 }
 
 header .container {
@@ -338,7 +337,7 @@ header .container {
 }
 
 .logo span {
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 .page-header .logo {
@@ -350,7 +349,7 @@ header .container {
 
 .footer .logo {
   margin-bottom: 20px;
-  color: var(--primary-wh-color);
+  color: $primary-wh-color;
 }
 
 /* SITE NAV */
@@ -374,7 +373,7 @@ header .container {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--title-text-color);
+  color: $title-text-color;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -389,22 +388,22 @@ header .container {
   display: block;
   width: 100%;
   height: 4px;
-  background-color: var(--accent-color);
+  background-color: $accent-color;
   border-radius: 2px;
 }
 
 .site-nav .link.current::after {
-  background-color: var(--accent-color);
+  background-color: $accent-color;
   border-radius: 2px;
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 .site-nav .link.current {
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 /* HEADER CONTACTS */
@@ -426,13 +425,13 @@ header .container {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--primary-text-color);
+  color: $primary-text-color;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-contacts a:hover,
 .header-contacts a:focus {
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 .header-contacts-item-svg-1 {
@@ -452,7 +451,7 @@ header .container {
 /* FOOTER */
 
 .footer {
-  background-color: var(--secondary-bg-color);
+  background-color: $secondary-bg-color;
 }
 
 .footer .container {
@@ -467,7 +466,7 @@ header .container {
 }
 
 .footer-contacts {
-  color: var(--primary-wh-color);
+  color: $primary-wh-color;
   font-size: 14px;
   line-height: 1.71;
 }
@@ -485,7 +484,7 @@ header .container {
 
 .footer-contacts a:hover,
 .footer-contacts a:focus {
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 /* JOIN SECTION */
@@ -502,7 +501,7 @@ header .container {
   line-height: 1.14;
   text-transform: uppercase;
 
-  color: var(--primary-wh-color);
+  color: $primary-wh-color;
 }
 
 .join-section .social-list-item-link {
@@ -510,15 +509,15 @@ header .container {
 }
 
 .join-section .social-list-item-svg {
-  fill: var(--primary-wh-color);
+  fill: $primary-wh-color;
 }
 
 .join-section .social-list-item-link:hover {
-  background-color: var(--accent-color);
+  background-color: $accent-color;
 }
 
 .join-section .social-list-item-link:hover .social-list-item-svg {
-  fill: var(--primary-wh-color);
+  fill: $primary-wh-color;
 }
 
 /* SUBSCRIBE SECTION */
@@ -535,7 +534,7 @@ header .container {
   line-height: 1.14;
   text-transform: uppercase;
 
-  color: var(--primary-wh-color);
+  color: $primary-wh-color;
 }
 
 .subscribe-form-input:focus,
@@ -549,7 +548,7 @@ header .container {
   padding-left: 16px;
   padding-top: 14px;
   padding-bottom: 14px;
-  color: var(--primary-wh-color);
+  color: $primary-wh-color;
   border: 1px solid #ffffff4d;
   border-radius: 4px;
   background-color: transparent;
@@ -575,8 +574,8 @@ header .container {
   line-height: 1.88;
   letter-spacing: 0.06em;
 
-  color: var(--primary-wh-color);
-  background-color: var(--accent-color);
+  color: $primary-wh-color;
+  background-color: $accent-color;
 
   border-radius: 4px;
   border-width: 0;

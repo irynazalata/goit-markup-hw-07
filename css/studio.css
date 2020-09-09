@@ -3,7 +3,7 @@ h2,
 h3 {
   margin-top: 0;
   margin-bottom: 0;
-  color: var(--title-text-color);
+  color: $title-text-color;
 }
 
 p {
@@ -17,7 +17,7 @@ p {
   margin: 0 auto;
   padding-top: 200px;
   padding-bottom: 200px;
-  background-color: var(--secondary-bg-color);
+  background-color: $secondary-bg-color;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -39,7 +39,7 @@ p {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  color: var(--primary-wh-color);
+  color: $primary-wh-color;
 }
 
 .hero-button:focus {
@@ -58,8 +58,8 @@ p {
   line-height: 1.88;
   letter-spacing: 0.06em;
 
-  color: var(--primary-wh-color);
-  background-color: var(--accent-color);
+  color: $primary-wh-color;
+  background-color: $accent-color;
 
   border-radius: 4px;
   border-width: 0;
@@ -118,7 +118,7 @@ p {
   line-height: 1.14;
   text-transform: uppercase;
 
-  color: var(--title-text-color);
+  color: $title-text-color;
 }
 
 .benefits-text {
@@ -166,7 +166,7 @@ p {
   text-align: center;
   text-transform: uppercase;
 
-  color: var(--primary-wh-color);
+  color: $primary-wh-color;
   background-color: rgba(47, 48, 58, 0.8);
 }
 /* TEAM */
@@ -193,7 +193,7 @@ p {
 .team-member {
   text-align: center;
   padding-bottom: 30px;
-  background: var(--primary-wh-color);
+  background: $primary-wh-color;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
@@ -243,7 +243,7 @@ p {
 }
 
 .clients .list-item-link:hover {
-  border: 1px solid var(--accent-color);
+  border: 1px solid $accent-color;
 }
 
 .clients .list-item-link-svg {
@@ -252,5 +252,5 @@ p {
 }
 
 .clients .list-item-link:hover .list-item-link-svg {
-  fill: var(--accent-color);
+  fill: $accent-color;
 }
