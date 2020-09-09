@@ -7,29 +7,23 @@
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-}
+  &-content {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 696px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  &-title {
+    margin: 0 auto 30px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 
-.hero-content {
-  text-align: center;
-  margin: 0 auto;
-  max-width: 696px;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-
-.hero-title {
-  margin: 0 auto 30px;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-
-  color: $primary-wh-color;
-}
-
-.hero-button:focus {
-  outline: none;
+    color: $primary-wh-color;
+  }
 }
 
 .hero-button {
@@ -49,4 +43,7 @@
 
   border-radius: 4px;
   border-width: 0;
+  &:focus {
+    outline: none;
+  }
 }

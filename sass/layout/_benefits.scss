@@ -1,29 +1,21 @@
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .benefits .list {
   display: flex;
-}
-
-.benefits .list-item {
-  width: 270px;
-}
-
-.benefits .list-item:not(:last-child) {
-  margin-right: 30px;
-}
-
-.benefits .list-item::before {
-  display: block;
-  content: "";
-  height: 120px;
-  margin-bottom: 30px;
-  background-color: #f5f4fa;
-  border-radius: 4px;
-  background-repeat: no-repeat;
-  background-position: center;
+  &-item {
+    width: 270px;
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+    &::before {
+      display: block;
+      content: "";
+      height: 120px;
+      margin-bottom: 30px;
+      background-color: #f5f4fa;
+      border-radius: 4px;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
 }
 
 .benefit-1::before {

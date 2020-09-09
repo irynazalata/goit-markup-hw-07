@@ -22,15 +22,13 @@
   height: 90px;
   border: 1px solid #afb1b8;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.clients .list-item-link:hover {
-  border: 1px solid $accent-color;
-}
-
-.clients .list-item-link-svg {
-  fill: #afb1b8;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+    border: 1px solid $accent-color;
+  }
+  &-svg {
+    fill: #afb1b8;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
 
 .clients .list-item-link:hover .list-item-link-svg {
