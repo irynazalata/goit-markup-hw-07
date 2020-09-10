@@ -1,8 +1,6 @@
 .social-list {
   @extend %align-center;
-}
-
-.social-list-item-link {
+  &-item-link {
   @extend %align-center;
   width: 44px;
   height: 44px;
@@ -15,9 +13,9 @@
     background-color: $accent-color;
   }
 }
-
-.social-list-item:not(:last-child) {
+  &-item:not(:last-child) {
   margin-right: 10px;
+}
 }
 
 .social-list-item-svg {
