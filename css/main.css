@@ -1,3 +1,9 @@
+header .container, .social-list, .social-list-item-link, .close-btn, .site-nav, .header-contacts a, .clients .list-item-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 *,
 *::before,
 *::after {
@@ -7,7 +13,6 @@
 
 body {
   font-family: Roboto, sans-serif;
-  font-weight: 400;
   color: #757575;
   letter-spacing: 0.03em;
   background-color: #ffffff;
@@ -63,12 +68,6 @@ p {
   overflow: hidden;
 }
 
-header .container, .social-list, .social-list-item-link, .close-btn, .site-nav, .header-contacts a, .clients .list-item-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .title {
   margin-bottom: 50px;
   text-align: center;
@@ -76,15 +75,15 @@ header .container, .social-list, .social-list-item-link, .close-btn, .site-nav, 
   line-height: 1.17;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .container {
   width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
-}
-
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .list {
@@ -203,6 +202,7 @@ header .container, .social-list, .social-list-item-link, .close-btn, .site-nav, 
 .modal-form-title {
   font-size: 20px;
   line-height: 1.15;
+  font-weight: 400;
   text-align: center;
   margin-bottom: 12px;
   color: #212121;
@@ -256,6 +256,7 @@ header .container, .social-list, .social-list-item-link, .close-btn, .site-nav, 
 .modal-form-message::placeholder {
   font-size: 12px;
   line-height: 1.17;
+  font-weight: 400;
   color: rgba(117, 117, 117, 0.5);
 }
 
@@ -311,9 +312,9 @@ header .container, .social-list, .social-list-item-link, .close-btn, .site-nav, 
   margin: 0 auto;
   padding: 10px 31px;
   font-family: inherit;
-  font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
+  font-weight: 700;
   letter-spacing: 0.06em;
   color: #ffffff;
   background-color: #2196f3;
@@ -327,9 +328,9 @@ header .container, .social-list, .social-list-item-link, .close-btn, .site-nav, 
 
 .logo {
   font-family: Raleway, sans-serif;
-  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  font-weight: 700;
 }
 
 .logo span {
@@ -369,9 +370,9 @@ header {
   padding-top: 33px;
   padding-bottom: 32px;
   width: max-content;
-  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  font-weight: 500;
   letter-spacing: 0.02em;
   color: #212121;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -408,9 +409,9 @@ header {
 }
 
 .header-contacts a {
-  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  font-weight: 500;
   letter-spacing: 0.02em;
   color: #757575;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -454,6 +455,7 @@ header {
   color: #ffffff;
   font-size: 14px;
   line-height: 1.71;
+  font-weight: 400;
 }
 
 .footer-contacts a {
@@ -483,6 +485,7 @@ header {
   margin-bottom: 20px;
   font-size: 14px;
   line-height: 1.14;
+  font-weight: 400;
   text-transform: uppercase;
   color: #ffffff;
 }
@@ -498,6 +501,7 @@ header {
   margin-bottom: 20px;
   font-size: 14px;
   line-height: 1.14;
+  font-weight: 400;
   text-transform: uppercase;
   color: #ffffff;
 }
@@ -532,9 +536,9 @@ header {
   padding: 10px 29px;
   text-align: left;
   font-family: inherit;
-  font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
+  font-weight: 700;
   letter-spacing: 0.06em;
   color: #ffffff;
   background-color: #2196f3;
@@ -571,9 +575,9 @@ header {
 
 .hero-title {
   margin: 0 auto 30px;
-  font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  font-weight: 900;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
@@ -586,9 +590,9 @@ header {
   margin: 0 auto;
   padding: 10px 31px;
   font-family: inherit;
-  font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
+  font-weight: 700;
   letter-spacing: 0.06em;
   color: #ffffff;
   background-color: #2196f3;
@@ -637,9 +641,9 @@ header {
 
 .benefits-title {
   margin-bottom: 10px;
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  font-weight: 700;
   text-transform: uppercase;
   color: #212121;
 }
@@ -647,6 +651,7 @@ header {
 .benefits-text {
   font-size: 14px;
   line-height: 1.72;
+  font-weight: 400;
 }
 
 .activity {
@@ -672,9 +677,9 @@ header {
   height: 70px;
   padding-top: 27px;
   padding-bottom: 27px;
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  font-weight: 700;
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
@@ -703,15 +708,16 @@ header {
 
 .team-member .name {
   margin-bottom: 10px;
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+  font-weight: 500;
 }
 
 .team-member .occupation {
   margin-bottom: 16px;
   font-size: 16px;
   line-height: 1.19;
+  font-weight: 400;
 }
 
 .clients .list {

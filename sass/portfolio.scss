@@ -1,7 +1,8 @@
 @import "./utils/variables";
+@import "./utils/mixins";
+@import "./utils/align-center";
 @import "./base/common";
 @import "./components/visually-hidden";
-@import "./components/align-center";
 @import "./components/title";
 @import "./components/section";
 @import "./components/container";
