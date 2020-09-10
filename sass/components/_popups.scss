@@ -51,9 +51,7 @@
   top: 8px;
   width: 30px;
   height: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @extend %align-center;
 
   background: $primary-wh-color;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -72,8 +70,7 @@
   flex-direction: column;
   padding: 40px;
   &-title {
-    font-size: 20px;
-    line-height: 1.15;
+    @include font(20px, 1.15);
     text-align: center;
     margin-bottom: 12px;
 
@@ -121,8 +118,7 @@
     border-color: $accent-color;
   }
   &::placeholder {
-    font-size: 12px;
-    line-height: 1.17;
+    @include font(12px, 1.17);
     color: rgba(117, 117, 117, 0.5);
   }
 }
@@ -179,9 +175,7 @@
   margin: 0 auto;
   padding: 10px 31px;
   font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
+  @include font(16px, 1.88, 700);
   letter-spacing: 0.06em;
 
   color: $primary-wh-color;

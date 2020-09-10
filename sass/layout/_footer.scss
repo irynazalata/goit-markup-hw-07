@@ -17,8 +17,7 @@
 
 .footer-contacts {
   color: $primary-wh-color;
-  font-size: 14px;
-  line-height: 1.71;
+  @include font(14px, 1.71);
   a {
     font-size: 14px;
     line-height: 1.71;
@@ -44,8 +43,7 @@
 .join-text {
   display: inline-block;
   margin-bottom: 20px;
-  font-size: 14px;
-  line-height: 1.14;
+  @include font(14px, 1.14);
   text-transform: uppercase;
 
   color: $primary-wh-color;
@@ -61,8 +59,7 @@
 .subscribe-text {
   display: inline-block;
   margin-bottom: 20px;
-  font-size: 14px;
-  line-height: 1.14;
+  @include font(14px, 1.14);
   text-transform: uppercase;
 
   color: $primary-wh-color;
@@ -97,9 +94,7 @@
   padding: 10px 29px;
   text-align: left;
   font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
+  @include font(16px, 1.88, 700);
   letter-spacing: 0.06em;
 
   color: $primary-wh-color;

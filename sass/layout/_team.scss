@@ -1,14 +1,5 @@
 .team {
   background-color: #f5f4fa;
-  .list {
-    display: flex;
-  }
-  &-title {
-    margin-bottom: 50px;
-    text-align: center;
-    font-size: 36px;
-    line-height: 1.17;
-  }
   &-member {
     text-align: center;
     padding-bottom: 30px;
@@ -23,14 +14,11 @@
     }
     .name {
       margin-bottom: 10px;
-      font-weight: 500;
-      font-size: 16px;
-      line-height: 1.19;
+      @include font(16px, 1.19, 500);
     }
     .occupation {
       margin-bottom: 16px;
-      font-size: 16px;
-      line-height: 1.19;
+      @include font(16px, 1.19);
     }
   }
 }

@@ -1,13 +1,6 @@
 .activity {
   padding-top: 0;
-  &-title {
-    margin-bottom: 50px;
-    text-align: center;
-    font-size: 36px;
-    line-height: 1.17;
-  }
   .list {
-    display: flex;
     flex-wrap: wrap;
     margin: -15px;
     &-item {
@@ -23,9 +16,7 @@
         padding-top: 27px;
         padding-bottom: 27px;
 
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 1.14;
+        @include font(14px, 1.14, 700);
         text-align: center;
         text-transform: uppercase;
 

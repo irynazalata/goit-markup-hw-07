@@ -1,5 +1,4 @@
 .benefits .list {
-  display: flex;
   &-item {
     width: 270px;
     &:not(:last-child) {
@@ -36,15 +35,12 @@
 
 .benefits-title {
   margin-bottom: 10px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
+  @include font(14px, 1.14, 700);
   text-transform: uppercase;
 
   color: $title-text-color;
 }
 
 .benefits-text {
-  font-size: 14px;
-  line-height: 1.72;
+  @include font(14px, 1.72);
 }

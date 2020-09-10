@@ -63,15 +63,23 @@ p {
   overflow: hidden;
 }
 
+header .container, .social-list, .social-list-item-link, .site-nav, .header-contacts a, .filter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.17;
+}
+
 .container {
   width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
-}
-
-header .container {
-  display: flex;
-  align-items: center;
 }
 
 .section {
@@ -81,18 +89,10 @@ header .container {
 
 .list {
   list-style: none;
-}
-
-.social-list {
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .social-list-item-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -168,15 +168,6 @@ header {
   background-color: #ffffff;
 }
 
-.site-nav {
-  display: flex;
-  align-items: center;
-}
-
-.site-nav > .list {
-  display: flex;
-}
-
 .site-nav .list-item:not(:last-child) {
   margin-right: 50px;
 }
@@ -226,8 +217,6 @@ header {
 }
 
 .header-contacts a {
-  display: flex;
-  align-items: center;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -372,8 +361,6 @@ header {
 
 /* FILTER */
 .filter {
-  display: flex;
-  justify-content: center;
   margin-bottom: 34px;
 }
 
