@@ -1,3 +1,9 @@
+header .container, .social-list, .social-list-item-link, .site-nav, .header-contacts a, .filter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 *,
 *::before,
 *::after {
@@ -7,7 +13,6 @@
 
 body {
   font-family: Roboto, sans-serif;
-  font-weight: 400;
   color: #757575;
   letter-spacing: 0.03em;
   background-color: #ffffff;
@@ -63,12 +68,6 @@ p {
   overflow: hidden;
 }
 
-header .container, .social-list, .social-list-item-link, .site-nav, .header-contacts a, .filter {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .title {
   margin-bottom: 50px;
   text-align: center;
@@ -76,15 +75,15 @@ header .container, .social-list, .social-list-item-link, .site-nav, .header-cont
   line-height: 1.17;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .container {
   width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
-}
-
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .list {
@@ -136,9 +135,9 @@ header {
 
 .logo {
   font-family: Raleway, sans-serif;
-  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  font-weight: 700;
 }
 
 .logo span {
@@ -178,9 +177,9 @@ header {
   padding-top: 33px;
   padding-bottom: 32px;
   width: max-content;
-  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  font-weight: 500;
   letter-spacing: 0.02em;
   color: #212121;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -217,9 +216,9 @@ header {
 }
 
 .header-contacts a {
-  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  font-weight: 500;
   letter-spacing: 0.02em;
   color: #757575;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -263,6 +262,7 @@ header {
   color: #ffffff;
   font-size: 14px;
   line-height: 1.71;
+  font-weight: 400;
 }
 
 .footer-contacts a {
@@ -292,6 +292,7 @@ header {
   margin-bottom: 20px;
   font-size: 14px;
   line-height: 1.14;
+  font-weight: 400;
   text-transform: uppercase;
   color: #ffffff;
 }
@@ -307,6 +308,7 @@ header {
   margin-bottom: 20px;
   font-size: 14px;
   line-height: 1.14;
+  font-weight: 400;
   text-transform: uppercase;
   color: #ffffff;
 }
@@ -341,9 +343,9 @@ header {
   padding: 10px 29px;
   text-align: left;
   font-family: inherit;
-  font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
+  font-weight: 700;
   letter-spacing: 0.06em;
   color: #ffffff;
   background-color: #2196f3;
@@ -368,9 +370,9 @@ header {
   display: inline-block;
   padding: 6px 22px;
   font-family: inherit;
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  font-weight: 500;
   color: #212121;
   background-color: #f5f4fa;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -423,6 +425,7 @@ header {
   padding: 63px 24px;
   font-size: 18px;
   line-height: 1.56;
+  font-weight: 400;
   color: #ffffff;
   background-color: rgba(33, 150, 243, 0.9);
   transform: translateY(100%);
@@ -436,6 +439,7 @@ header {
 .examples-title {
   font-size: 18px;
   line-height: 2;
+  font-weight: 400;
   letter-spacing: 0.06em;
   color: #212121;
 }
@@ -443,6 +447,7 @@ header {
 .examples-type {
   font-size: 16px;
   line-height: 2;
+  font-weight: 400;
   color: #757575;
 }
 /*# sourceMappingURL=portfolio.css.map */
